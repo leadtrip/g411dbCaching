@@ -20,6 +20,11 @@ abstract class CarManufacturerService implements ICarManufacturerService{
         CarManufacturer.get(id)
     }
 
+    def loadCarManufacturer( Serializable id ) {
+        log.info("================= Load CarManufacturer =================")
+        CarManufacturer.load(id)
+    }
+
     def findCarManufacturerByName( String name ) {
         log.info("================= Getting CarManufacturer withCriteria query =================")
         CarManufacturer.withCriteria {

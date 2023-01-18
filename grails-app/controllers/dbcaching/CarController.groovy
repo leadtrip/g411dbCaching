@@ -15,6 +15,7 @@ class CarController {
         [dataServiceResult: merc,
          getCarResult: carService.getCar(1),
          readCarResult: carService.readCar(1),
+         loadCarResult: carService.loadCar(1),
          dynamicFinderResult: carService.findByEngine(merc.engine),
          criteriaResult: carService.findCarByName(merc.name),
         criteriaListResult: carService.findCarsByEngineBhpAndName( merc.name, merc.engine.bhp )]

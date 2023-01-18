@@ -24,6 +24,10 @@
             <td>${getCarResult}</td>
         </tr>
         <tr>
+            <td>Load car</td>
+            <td>${loadCarResult}</td>
+        </tr>
+        <tr>
             <td>Dynamic finder</td>
             <td>${dynamicFinderResult}</td>
         </tr>

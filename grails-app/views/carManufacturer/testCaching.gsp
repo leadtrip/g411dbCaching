@@ -16,12 +16,16 @@
             <td>${dataServiceResult}</td>
         </tr>
         <tr>
-            <td>Read car</td>
+            <td>Read car manufacturer</td>
             <td>${readCarManufacturerResult}</td>
         </tr>
         <tr>
-            <td>Get car</td>
+            <td>Get car manufacturer</td>
             <td>${getCarManufacturerResult}</td>
+        </tr>
+        <tr>
+            <td>Load car manufacturer</td>
+            <td>${loadCarManufacturerResult}</td>
         </tr>
         <tr>
             <td>Dynamic finder</td>
