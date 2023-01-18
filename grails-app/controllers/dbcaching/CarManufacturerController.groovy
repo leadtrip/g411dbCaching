@@ -17,7 +17,7 @@ class CarManufacturerController {
          readCarManufacturerResult: carManufacturerService.readCarManufacturer(1),
          dynamicFinderResult: carManufacturerService.findByName(merc.name),
          criteriaResult: carManufacturerService.findCarManufacturerByName(merc.name),
-                criteriaListResult: carManufacturerService.findCarManufacturersByNameAndAddress(merc.name, merc.address)
+         criteriaListResult: carManufacturerService.findCarManufacturersByNameAndAddress(merc.name, merc.address)
         ]
     }
 

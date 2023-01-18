@@ -29,7 +29,7 @@ abstract class CarManufacturerService implements ICarManufacturerService{
     }
 
     def findCarManufacturersByNameAndAddress( String name, String address ) {
-        log.info("================= Finding cars createCriteria query =================")
+        log.info("================= Finding CarManufacturer createCriteria query =================")
         CarManufacturer.createCriteria().list {
             cache true
             eq 'name', name
