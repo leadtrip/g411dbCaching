@@ -74,7 +74,8 @@ dependencies {
     testRuntime "org.seleniumhq.selenium:selenium-firefox-driver:3.14.0"
 
     // non-standard
-    implementation 'org.hibernate:hibernate-ehcache:5.4.18.Final'
+    compile 'org.hibernate:hibernate-ehcache:5.4.18.Final'
+    compile 'org.hibernate:hibernate-jcache:5.4.18.Final'
 }
 
 bootRun {

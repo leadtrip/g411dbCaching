@@ -1,4 +1,4 @@
-package dbcaching
+package dbcaching.car
 
 class Wheel {
 

@@ -1,5 +1,7 @@
-package dbcaching
+package dbcaching.car
 
+import dbcaching.car.Car
+import dbcaching.car.CarService
 import grails.validation.ValidationException
 import static org.springframework.http.HttpStatus.*
 

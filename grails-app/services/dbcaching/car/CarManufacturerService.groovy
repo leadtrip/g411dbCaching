@@ -1,4 +1,5 @@
-package dbcaching
+package dbcaching.car
+
 
 import grails.gorm.services.Service
 
@@ -40,6 +41,7 @@ abstract class CarManufacturerService implements ICarManufacturerService{
             eq 'name', name
             eq 'address', address
             order 'name', 'desc'
+            order 'address', 'desc'
         }
     }
 }

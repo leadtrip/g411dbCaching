@@ -1,4 +1,4 @@
-package dbcaching
+package dbcaching.car
 
 interface ICarService {
     Car get(Serializable id)

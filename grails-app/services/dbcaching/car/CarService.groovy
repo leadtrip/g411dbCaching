@@ -1,11 +1,12 @@
-package dbcaching
+package dbcaching.car
+
 
 import grails.gorm.services.Service
 
 @Service(Car)
 abstract class CarService implements ICarService{
 
-    def findByEngine( Engine engine ) {
+    def findByEngine(Engine engine ) {
         log.info("================= Getting car with dynamic finder =================")
         Car.findByEngine( engine )
     }

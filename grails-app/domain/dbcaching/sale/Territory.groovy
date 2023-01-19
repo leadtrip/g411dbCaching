@@ -1,6 +1,7 @@
-package dbcaching
+package dbcaching.sale
 
-abstract class Manufacturer {
+class Territory {
+
     String name
 
     static mapping = {
